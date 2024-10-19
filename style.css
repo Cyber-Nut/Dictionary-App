@@ -46,17 +46,45 @@ input{
     height: 3rem;
     width: 30rem;
     font-size: 2rem;
+    border: none;
+    outline: none;
+    padding: 0.5 rem;
 }
-img{
+.search-button button img{
     height: 2rem;
 }
-#btn{
-    height: 3.2rem;
+#btn-search{
+    height: 3rem;
     width: 3.2rem;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
 
-.answer{
+.answer-container{
     background-color: white;
     height: 38vh;
     width: 90vh ;
+    padding: 3rem;
+    max-height: 25vh;
+}
+
+.answer-heading{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.audio{
+    margin-left: 30rem;
+    cursor: pointer;
+}
+
+.audio img{
+    height: 2.5rem;
+    width: 2.5rem;
+    opacity: 0.6;
+}
+
+.definition{
+    font-size: 1.7rem;
 }
