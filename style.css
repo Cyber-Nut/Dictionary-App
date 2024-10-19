@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #262429;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background-color: #8B7E92;
+    height: 90vh;
+    width: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin-bottom: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inner-container{
+    background-color: #9E92A2;
+    height: 60vh;
+    width: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Adds shadow for elevation */
+}
+
+.search-container{
+    margin-top: 6rem;
+    display: flex;
+    height: 6rem;
+}
+
+input{
+    height: 3rem;
+    width: 30rem;
+}
+img{
+    height: 2rem;
+}
+#btn{
+    height: 3.2rem;
+    width: 3.2rem;
+}
